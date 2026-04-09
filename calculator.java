@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculator{
+public class calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -42,6 +42,12 @@ public class calculator{
                 } else {
                     System.out.println("Error: Cannot divide by zero!");
                 }
+                break;
+
+            default:
+                System.out.println("Invalid operator!");
         }
+
+        sc.close();
     }
 }

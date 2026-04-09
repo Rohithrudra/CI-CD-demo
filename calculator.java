@@ -41,3 +41,7 @@ public class calculator{
                     System.out.println("Result = " + result);
                 } else {
                     System.out.println("Error: Cannot divide by zero!");
+                }
+        }
+    }
+}
